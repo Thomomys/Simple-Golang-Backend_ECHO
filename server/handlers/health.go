@@ -1,0 +1,21 @@
+package handlers
+
+import (
+	"app/responses"
+	"app/server"
+	"net/http"
+
+	"github.com/labstack/echo/v4"
+)
+
+type HandlerHealth struct {
+	server *server.Server
+}
+
+func NewHandlerHealth(server *server.Server) *HandlerHealth {
+	return &HandlerHealth{server: server}
+}
+
+func (handler *HandlerHealth) HealthCheck(c echo.Context) error {
+	return responses.MessageResponse(c, http.StatusOK, "Server is running!")
+}
