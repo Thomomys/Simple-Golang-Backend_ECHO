@@ -20,7 +20,7 @@ func NewServer() (*Server, error) {
 
 func (server *Server) Start() error {
 	// Get the values of the environment variables
-	port := os.Getenv("PORT")
+	port := os.Getenv("SERVER_PORT")
 
 	// Start searver
 	return server.Echo.Start(":" + port)
