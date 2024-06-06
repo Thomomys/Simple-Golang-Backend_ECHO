@@ -5,9 +5,12 @@ import (
 	"app/server/handlers"
 
 	"github.com/labstack/echo/v4"
+	echoSwagger "github.com/swaggo/echo-swagger"
 )
 
 func ConfigureRoutes(server *server.Server) {
+	server.Echo.GET("/docs/*", echoSwagger.WrapHandler)
+
 	apiV1 := server.Echo.Group("/api/v1")
 
 	groupHealth := apiV1.Group("/health")

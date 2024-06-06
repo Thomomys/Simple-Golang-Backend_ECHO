@@ -1,2 +1,5 @@
 # Enviroment 
 .env
+
+# Swagger documentation
+docs
