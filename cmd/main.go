@@ -8,6 +8,9 @@ import (
 	"github.com/joho/godotenv"
 )
 
+// @Title Golang Task
+// @Version 1.0
+
 func main() {
 	// Load environment variables from the .env file
 	err := godotenv.Load()

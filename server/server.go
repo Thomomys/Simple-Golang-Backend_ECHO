@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"os"
 
+	_ "app/docs"
+
 	"github.com/labstack/echo/v4"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
