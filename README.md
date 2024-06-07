@@ -75,7 +75,7 @@ The FXC Team
 3.  Run following command
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
-4. Visit [localhost:8000/docs/index.html](localhost:8000/docs/index.html) in your web browser to see swagger document
+4. Visit <http://localhost:8000/docs/index.html> in your web browser to see swagger document
