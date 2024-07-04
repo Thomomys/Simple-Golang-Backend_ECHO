@@ -2,14 +2,9 @@
 
 Simple golang backend service using [Echo](https://echo.labstack.com) framework.
 
-```
-   ____    __
-  / __/___/ /  ___
- / _// __/ _ \/ _ \
-/___/\__/_//_/\___/ v4.12.0
+<img src="https://camo.githubusercontent.com/794ace8f539408352061bb193fce26a0df05bed29d57d2125968fa99143b67cd/68747470733a2f2f63646e2e6c6162737461636b2e636f6d2f696d616765732f6563686f2d6c6f676f2e737667" height="150"></img>
 
 High performance, minimalist Go web framework
-```
 
 ## Running Application
 
